@@ -11,7 +11,7 @@
         <form action="/" method="POST">
             <div style="background-color: rgb(139, 195, 197); display: inline; padding: 20px; border-radius: 20px;">
                 <label for="inp">Enter the url</label>
-                <input style=" border-radius: 15px;" id="inp" type="text" name="url">
+                <input style=" border-radius: 15px;" id="inp" type="text" name="url" value="{{ request.form['url'] }}" >
                 <button style=" border-radius: 15px" type="submit">Submit</button>
             </div>
         </form>
