@@ -90,7 +90,7 @@ def website(site):
     #site = input("Input Site Here: ")
 
 # pickle.dump(dt_model, open('model.pkl', 'wb'))
-dt_model = pickle.load(open('model.pkl','rb'))
+dt_model = pickle.load(open('/var/www/Phishing/model.pkl','rb'))
 def classifier(site):
     phishing_predict = dt_model.predict([website(site)])
     if phishing_predict == 0:
