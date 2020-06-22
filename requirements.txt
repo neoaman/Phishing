@@ -1,0 +1,11 @@
+Flask
+pandas
+numpy
+sklearn
+tld
+urllib3
+scikit-learn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
