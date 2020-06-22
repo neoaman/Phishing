@@ -6,12 +6,18 @@
     <title>Phishing</title>
 </head>
 <body>
-    <form action="/" method="POST">
-        Enter the url: <input type="text" name="url">
-        <button type="submit">Submit</button>
-
-    </form>
-    <h2>{{out}}</h2>
+    <div style="display: block; margin: auto; text-align: center; top: 10pc; position: relative;">
+        <img src="" alt="">
+        <form action="/" method="POST">
+            <div style="background-color: rgb(139, 195, 197); display: inline; padding: 20px; border-radius: 20px;">
+                <label for="inp">Enter the url</label>
+                <input style=" border-radius: 15px;" id="inp" type="text" name="url">
+                <button style=" border-radius: 15px" type="submit">Submit</button>
+            </div>
+        </form>
+        
+        <h2>{{out}}</h2>
+    </div>
 
     
 </body>
